@@ -1,0 +1,2 @@
+# hgwiki
+my wiki
