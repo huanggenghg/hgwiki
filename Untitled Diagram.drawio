@@ -1,1 +1,40 @@
-<mxfile host="app.diagrams.net" modified="2022-01-22T07:18:39.136Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="Uf4GcW8zEf9ZFGCOXwdi" version="16.1.0" type="github"><diagram id="ZTLEyve_-OdCphCfDqAG" name="Page-1">3ZfNjpswFIWfxsuOAAMxy5iQdpGp1KZS1VXlBBeoDEaOyU+fvjaYEASTyYwyTTqb5Pr4WsbnfrZsAMN8/1GQMn3kMWXAseI9gDPgOIHrq18tHBrBg0EjJCKLG8nuhGX2hxrRMmqVxXTTS5ScM5mVfXHNi4KuZU8jQvBdP+0XZ/1ZS5LQgbBcEzZUv2exTBsVOZNO/0SzJG1ntn2zvpy0yWYlm5TEfHciwQjAUHAumyjfh5Rp71pfmnHzJ3qPHyZoIS8ZsI3YYrb84X/+8jWOZj9t/PiNfzDL2BJWmQWbj5WH1gEaK0NMkwuZ8oQXhEWdigWvipjqaSzV6nIWnJdKtJX4m0p5MNUlleRKSmXOTG8zp57oybUZacMrsaZnFtQyQkRC5Zk8/1gBRS7lOZXioMYJyojMtv3vIIah5JjX2awC4/QLXLdHXPdJrszCxWqj/0DkARwCZOlgOgEID+rSua4t3KWZpMuS1Obs1FYcc3hLhaT78x4PPTEDoGdANjvZadu7bl/YLezpyZ7wrTeyMXhv8PoXwotuCa8/dF0xiuYgsEEUaGSRClyAp5paHWCA/UFlngG2T/cb4AuDW+Nrjx0D/zW/6EJ+bWu8VP8GYDQCsA+COZh6OkABwJEOMARTVLOtxBBEExAopN06wDXtHlAQTcO7Y9uDN2cbvje22wvp83A7N71aWK87nnUOAth6Gfg6CHTyve0Af3LzHeCMFGKi3Q5gfd7M9JFzb74h++a+uQPfSCmVUOPnatP0IY00gSMYX59V9W4rdU++T/QL92FFNtn6QajHZkgY45UyBNfPXagPqfqda3sqWjW1WqyueAd3g3653LFLjHWdcqlm9zit+05e+DD6Cw==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-01-22T08:17:12.345Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="7s4BnN_y5LFfOMf300Sh" version="16.1.0" type="github">
+  <diagram id="ZTLEyve_-OdCphCfDqAG" name="Page-1">
+    <mxGraphModel dx="946" dy="539" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="vElLDSY6NQRdED_1BMTo-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="vElLDSY6NQRdED_1BMTo-1" target="vElLDSY6NQRdED_1BMTo-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vElLDSY6NQRdED_1BMTo-1" value="&amp;nbsp;开始" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="350" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vElLDSY6NQRdED_1BMTo-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="vElLDSY6NQRdED_1BMTo-6" target="vElLDSY6NQRdED_1BMTo-8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vElLDSY6NQRdED_1BMTo-6" value="发送事件" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="350" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vElLDSY6NQRdED_1BMTo-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="vElLDSY6NQRdED_1BMTo-8" target="vElLDSY6NQRdED_1BMTo-10" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vElLDSY6NQRdED_1BMTo-8" value="查找注册的监听" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="350" y="530" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vElLDSY6NQRdED_1BMTo-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="vElLDSY6NQRdED_1BMTo-10" target="vElLDSY6NQRdED_1BMTo-12" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vElLDSY6NQRdED_1BMTo-10" value="发送事件到注册的监听器" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="350" y="670" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vElLDSY6NQRdED_1BMTo-12" value="结束" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="350" y="810" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vElLDSY6NQRdED_1BMTo-14" value="apt 生成事件的监听索引，避免使用反射过于耗时。" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.rectCallout;dx=30;dy=15;boundedLbl=1;" parent="1" vertex="1">
+          <mxGeometry x="490" y="490" width="100" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
