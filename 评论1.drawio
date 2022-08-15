@@ -1,1 +1,155 @@
-<mxfile host="app.diagrams.net" modified="2022-08-15T14:06:19.505Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" version="20.2.4" etag="Fe79xz3Z23P4bkrsRixn" type="github"><diagram id="wJQ1-mTJTXlkEPP2X2nt">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-08-15T15:10:50.274Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="9WTZ69KVk69n0ya0Gakz" version="20.2.4" type="github">
+  <diagram id="wJQ1-mTJTXlkEPP2X2nt" name="第 1 页">
+    <mxGraphModel dx="2031" dy="997" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#114B5F" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="SlUDLs-neDUx8JglwdHc-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=#114B5F;strokeColor=#028090;fontColor=#E4FDE1;dashed=1;endArrow=open;endFill=0;jumpSize=6;endSize=9;startSize=9;strokeWidth=1;" edge="1" parent="1" source="SlUDLs-neDUx8JglwdHc-1" target="SlUDLs-neDUx8JglwdHc-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="941" y="790" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SlUDLs-neDUx8JglwdHc-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#E4FDE1;endArrow=none;endFill=0;strokeColor=#028090;fillColor=#F45B69;startArrow=block;startFill=0;labelBackgroundColor=#114B5F;endSize=9;startSize=9;strokeWidth=1;" edge="1" parent="1" source="SlUDLs-neDUx8JglwdHc-1" target="SlUDLs-neDUx8JglwdHc-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SlUDLs-neDUx8JglwdHc-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#E4FDE1;startArrow=block;startFill=0;endArrow=none;endFill=0;strokeColor=#028090;fillColor=#F45B69;labelBackgroundColor=#114B5F;strokeWidth=1;endSize=9;startSize=9;" edge="1" parent="1" source="SlUDLs-neDUx8JglwdHc-1" target="SlUDLs-neDUx8JglwdHc-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SlUDLs-neDUx8JglwdHc-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;dashed=1;fontColor=#E4FDE1;startArrow=none;startFill=0;endArrow=block;endFill=0;strokeColor=#028090;fillColor=#F45B69;labelBackgroundColor=#114B5F;endSize=9;startSize=9;strokeWidth=1;" edge="1" parent="1" source="SlUDLs-neDUx8JglwdHc-1" target="SlUDLs-neDUx8JglwdHc-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SlUDLs-neDUx8JglwdHc-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;dashed=1;fontColor=#E4FDE1;startArrow=none;startFill=0;endArrow=open;endFill=0;strokeColor=#028090;fillColor=#F45B69;labelBackgroundColor=#114B5F;strokeWidth=1;endSize=9;startSize=9;" edge="1" parent="1" source="SlUDLs-neDUx8JglwdHc-1" target="SlUDLs-neDUx8JglwdHc-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SlUDLs-neDUx8JglwdHc-1" value="AbstractUnifiedCommentBuilder" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#F45B69;strokeColor=#028090;fontColor=#E4FDE1;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="771" y="410" width="340" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="SlUDLs-neDUx8JglwdHc-2" value="- mStateCallBack: IUnifiedCommentCallback&#xa;- mUserActionFactory: IUnifiedUserActionFactory&#xa;- mCommentConfig: UnifiedCommentConfig&#xa;# mActivity: FragmentActivity" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#E4FDE1;strokeWidth=1;" vertex="1" parent="SlUDLs-neDUx8JglwdHc-1">
+          <mxGeometry y="26" width="340" height="74" as="geometry" />
+        </mxCell>
+        <mxCell id="SlUDLs-neDUx8JglwdHc-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;labelBackgroundColor=#114B5F;strokeColor=#028090;fontColor=#E4FDE1;" vertex="1" parent="SlUDLs-neDUx8JglwdHc-1">
+          <mxGeometry y="100" width="340" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="SlUDLs-neDUx8JglwdHc-4" value="+ setActivity(activity: FragmentActivity)&#xa;+ setStateCallBack(callback: IUnifiedComentCallBack)&#xa;+ setUserActiionFactory(factory:IUnifiedUserActionFactory)&#xa;+ setUnifiedCommentConfig(config: UnifiedCommentConfig)&#xa;# buildINternal(): T&#xa;+ build(): T" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#E4FDE1;strokeWidth=1;" vertex="1" parent="SlUDLs-neDUx8JglwdHc-1">
+          <mxGeometry y="108" width="340" height="112" as="geometry" />
+        </mxCell>
+        <mxCell id="SlUDLs-neDUx8JglwdHc-5" value="UnifiedScopedHttpRequestFactory" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#F45B69;strokeColor=#028090;fontColor=#E4FDE1;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="771" y="750" width="340" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="SlUDLs-neDUx8JglwdHc-6" value="- configMap: HashMap&lt;String, UnifiedHttpConfig&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#E4FDE1;strokeWidth=1;" vertex="1" parent="SlUDLs-neDUx8JglwdHc-5">
+          <mxGeometry y="26" width="340" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="SlUDLs-neDUx8JglwdHc-7" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;labelBackgroundColor=#114B5F;strokeColor=#028090;fontColor=#E4FDE1;" vertex="1" parent="SlUDLs-neDUx8JglwdHc-5">
+          <mxGeometry y="60" width="340" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="SlUDLs-neDUx8JglwdHc-8" value="+ createHttpRequest(httpScope: String): IUnifiedService&#xa;+ putHttpConfig(httpScope: String, config: UnifiedHttpConfig)&#xa;+ getEnv(httpScope: String): Int&#xa;+ useHttps(httpScope: String): Boolean" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#E4FDE1;strokeWidth=1;" vertex="1" parent="SlUDLs-neDUx8JglwdHc-5">
+          <mxGeometry y="68" width="340" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="SlUDLs-neDUx8JglwdHc-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontColor=#E4FDE1;strokeColor=#028090;fillColor=#F45B69;dashed=1;endSize=9;startSize=9;strokeWidth=1;endArrow=open;endFill=0;" edge="1" parent="1" source="SlUDLs-neDUx8JglwdHc-11" target="SlUDLs-neDUx8JglwdHc-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SlUDLs-neDUx8JglwdHc-11" value="UnifiedWebCommentBuilder" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#F45B69;strokeColor=#028090;fontColor=#E4FDE1;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="1191" y="430" width="340" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="SlUDLs-neDUx8JglwdHc-12" value="- mJSInterfaceFactory: IUnifiedJSInterfaceFactory&#xa;- jsApiEntry: IUnifiedJSAPIEntry&#xa;- preView: View" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#E4FDE1;strokeWidth=1;" vertex="1" parent="SlUDLs-neDUx8JglwdHc-11">
+          <mxGeometry y="26" width="340" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="SlUDLs-neDUx8JglwdHc-13" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;labelBackgroundColor=#114B5F;strokeColor=#028090;fontColor=#E4FDE1;" vertex="1" parent="SlUDLs-neDUx8JglwdHc-11">
+          <mxGeometry y="90" width="340" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="SlUDLs-neDUx8JglwdHc-14" value="+ setJSAPIEntry(apiEntry: IUnifiedJSAPIEntry)&#xa;+ setUnifiedJSInterfaceFactroy(factory: IUnifiedJSInterfaceFactory)&#xa;+ setPreView(preView: View)&#xa;# buildInternal(): UnifiedWebCommentFragment" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#E4FDE1;strokeWidth=1;" vertex="1" parent="SlUDLs-neDUx8JglwdHc-11">
+          <mxGeometry y="98" width="340" height="82" as="geometry" />
+        </mxCell>
+        <mxCell id="SlUDLs-neDUx8JglwdHc-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#E4FDE1;startArrow=none;startFill=0;endArrow=open;endFill=0;strokeColor=#028090;fillColor=#F45B69;dashed=1;labelBackgroundColor=#114B5F;strokeWidth=1;endSize=9;startSize=9;" edge="1" parent="1" source="SlUDLs-neDUx8JglwdHc-16" target="SlUDLs-neDUx8JglwdHc-32">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="521" y="360" />
+              <mxPoint x="521" y="360" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SlUDLs-neDUx8JglwdHc-16" value="UnifiedAndroidCommentBuilder" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#F45B69;strokeColor=#028090;fontColor=#E4FDE1;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="321" y="415" width="390" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="SlUDLs-neDUx8JglwdHc-17" value="- mRootView: ICommentRootView&#xa;- mController: AbstractUnifiedCommentController&#xa;- mCommentViewFactory: IUnifiedCommentViewFactory&lt;*&gt;&#xa;- mAttachmentViewFactory: IAttachmentViewFactory" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#E4FDE1;strokeWidth=1;" vertex="1" parent="SlUDLs-neDUx8JglwdHc-16">
+          <mxGeometry y="26" width="390" height="74" as="geometry" />
+        </mxCell>
+        <mxCell id="SlUDLs-neDUx8JglwdHc-18" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;labelBackgroundColor=#114B5F;strokeColor=#028090;fontColor=#E4FDE1;" vertex="1" parent="SlUDLs-neDUx8JglwdHc-16">
+          <mxGeometry y="100" width="390" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="SlUDLs-neDUx8JglwdHc-19" value="+ setRootContentView(root: ICommentRootView)&#xa;+ setController(controller: AbstractUnifiedCommentController)&#xa;+ setCommentViewFactory(factory: IUnifiedCommentViewFactory&lt;*&gt;)&#xa;+ setAttachmentViewFactory(factory: IAttachmentViewFactory)&#xa;+ buildInternal(): UnifiedAndroidCommentFragment" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#E4FDE1;strokeWidth=1;" vertex="1" parent="SlUDLs-neDUx8JglwdHc-16">
+          <mxGeometry y="108" width="390" height="102" as="geometry" />
+        </mxCell>
+        <mxCell id="SlUDLs-neDUx8JglwdHc-29" value="UnifiedAndroidCommentFragment" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontColor=#E4FDE1;strokeColor=#028090;fillColor=#F45B69;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="393.5" y="240" width="255" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="SlUDLs-neDUx8JglwdHc-30" value=" " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#E4FDE1;strokeWidth=1;" vertex="1" parent="SlUDLs-neDUx8JglwdHc-29">
+          <mxGeometry y="26" width="255" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="SlUDLs-neDUx8JglwdHc-31" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;fontColor=#E4FDE1;labelBackgroundColor=#114B5F;strokeColor=#028090;" vertex="1" parent="SlUDLs-neDUx8JglwdHc-29">
+          <mxGeometry y="52" width="255" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="SlUDLs-neDUx8JglwdHc-32" value=" " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#E4FDE1;strokeWidth=1;" vertex="1" parent="SlUDLs-neDUx8JglwdHc-29">
+          <mxGeometry y="60" width="255" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="SlUDLs-neDUx8JglwdHc-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;fontColor=#E4FDE1;startArrow=none;startFill=0;endArrow=open;endFill=0;strokeColor=#028090;fillColor=#F45B69;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=#114B5F;strokeWidth=1;endSize=9;startSize=9;" edge="1" parent="1" source="SlUDLs-neDUx8JglwdHc-34" target="SlUDLs-neDUx8JglwdHc-35">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1136" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SlUDLs-neDUx8JglwdHc-34" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;IUnifiedCommentBuilder&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ setActivity(activity: FragmentActivity)&lt;br style=&quot;padding: 0px; margin: 0px;&quot;&gt;+ setStateCallBack(callback: IUnifiedComentCallBack)&lt;br style=&quot;padding: 0px; margin: 0px;&quot;&gt;+ setUserActiionFactory(factory: IUnifiedUserActionFactory)&lt;br style=&quot;padding: 0px; margin: 0px;&quot;&gt;+ setUnifiedCommentConfig(config: UnifiedCommentConfig)&lt;br style=&quot;padding: 0px; margin: 0px;&quot;&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;fontColor=#E4FDE1;strokeColor=#028090;fillColor=#F45B69;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="411" y="60" width="470" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="SlUDLs-neDUx8JglwdHc-35" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;IUnifiedUserActionFactory&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ createUserActionControllerFactory(): IUnifiedUserActionControllerFactory&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ createUserActionActionViewFactory(): IUnifiedUserActionViewFactory&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;fontColor=#E4FDE1;strokeColor=#028090;fillColor=#F45B69;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="1061" y="70" width="470" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="SlUDLs-neDUx8JglwdHc-40" value="UnifiedWebCommentFragment" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontColor=#E4FDE1;strokeColor=#028090;fillColor=#F45B69;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="1361" y="240" width="255" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="SlUDLs-neDUx8JglwdHc-41" value=" " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#E4FDE1;strokeWidth=1;" vertex="1" parent="SlUDLs-neDUx8JglwdHc-40">
+          <mxGeometry y="26" width="255" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="SlUDLs-neDUx8JglwdHc-42" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;fontColor=#E4FDE1;labelBackgroundColor=#114B5F;strokeColor=#028090;" vertex="1" parent="SlUDLs-neDUx8JglwdHc-40">
+          <mxGeometry y="52" width="255" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="SlUDLs-neDUx8JglwdHc-43" value=" " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#E4FDE1;strokeWidth=1;" vertex="1" parent="SlUDLs-neDUx8JglwdHc-40">
+          <mxGeometry y="60" width="255" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="SlUDLs-neDUx8JglwdHc-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpSize=6;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;dashed=1;fontColor=#E4FDE1;startSize=9;endSize=9;strokeColor=#028090;strokeWidth=1;fillColor=#F45B69;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;startArrow=open;startFill=0;" edge="1" parent="1" source="SlUDLs-neDUx8JglwdHc-45" target="SlUDLs-neDUx8JglwdHc-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SlUDLs-neDUx8JglwdHc-45" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;IAttachmentViewFactory&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ createListHeaderView(context: Context): View&lt;br style=&quot;padding: 0px; margin: 0px;&quot;&gt;+ createListFooterView(context: Context): View&lt;br style=&quot;padding: 0px; margin: 0px;&quot;&gt;+ createListEmptyView(context: Context): View&lt;br style=&quot;padding: 0px; margin: 0px;&quot;&gt;+ createListNoNetWorkView(context: Context): View&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ createListLoadingView(context: Context): View&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;...&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;br style=&quot;padding: 0px; margin: 0px;&quot;&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;fontColor=#E4FDE1;strokeColor=#028090;fillColor=#F45B69;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="750" width="470" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="SlUDLs-neDUx8JglwdHc-61" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpSize=6;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;fontColor=#E4FDE1;startArrow=none;startFill=0;endArrow=open;endFill=0;startSize=9;endSize=9;strokeColor=#028090;strokeWidth=1;fillColor=#F45B69;entryX=0.5;entryY=0.99;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="SlUDLs-neDUx8JglwdHc-53" target="SlUDLs-neDUx8JglwdHc-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1361" y="777" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SlUDLs-neDUx8JglwdHc-53" value="UnifiedCommentBuilderFactory" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontColor=#E4FDE1;strokeColor=#028090;fillColor=#CCCC00;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="1161" y="860" width="400" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="SlUDLs-neDUx8JglwdHc-54" value=" " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#E4FDE1;strokeWidth=1;" vertex="1" parent="SlUDLs-neDUx8JglwdHc-53">
+          <mxGeometry y="26" width="400" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="SlUDLs-neDUx8JglwdHc-55" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;fontColor=#E4FDE1;labelBackgroundColor=#114B5F;strokeColor=#028090;" vertex="1" parent="SlUDLs-neDUx8JglwdHc-53">
+          <mxGeometry y="52" width="400" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="SlUDLs-neDUx8JglwdHc-56" value="+ createUnifiedCommentBuilder(viewType: UnifiedCommentViewType)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#E4FDE1;strokeWidth=1;" vertex="1" parent="SlUDLs-neDUx8JglwdHc-53">
+          <mxGeometry y="60" width="400" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="SlUDLs-neDUx8JglwdHc-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpSize=6;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;fontColor=#E4FDE1;startSize=9;endSize=9;strokeColor=#028090;strokeWidth=1;fillColor=#F45B69;endArrow=none;endFill=0;startArrow=open;startFill=0;" edge="1" parent="1" source="SlUDLs-neDUx8JglwdHc-57" target="SlUDLs-neDUx8JglwdHc-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SlUDLs-neDUx8JglwdHc-57" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Enum&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;UnifiedCommentViewType&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ TYPE_ANDROID&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ TYPE_WEB&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;fontColor=#E4FDE1;strokeColor=#028090;fillColor=#F45B69;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="1273.5" y="1000" width="175" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="SlUDLs-neDUx8JglwdHc-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpSize=6;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;dashed=1;fontColor=#E4FDE1;startArrow=none;startFill=0;endArrow=open;endFill=0;startSize=9;endSize=9;strokeColor=#028090;strokeWidth=1;fillColor=#F45B69;entryX=0.616;entryY=1.007;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="SlUDLs-neDUx8JglwdHc-56" target="SlUDLs-neDUx8JglwdHc-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="560" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
